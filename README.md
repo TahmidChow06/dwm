@@ -22,7 +22,6 @@ It will clone the config in ~/.config/dwm. and install dwm.
 ## Keybinding
 Bindings that were changed are mentioned below:
 
-|------------------|-------------------------------|
 | Keybinding       | Description                   |
 |------------------|-------------------------------|
 | super+Enter      | To open St                    |
