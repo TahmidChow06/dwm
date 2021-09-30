@@ -28,6 +28,5 @@ Bindings that were changed are mentioned below:
 | super+shift+h    | Take current window to master |
 | super+f          | full screen                   |
 | super+ctrl+enter | to toggle floating layout     |
-|------------------|-------------------------------|
 
 And few bindings are also added. Like volume up, down and mute.
