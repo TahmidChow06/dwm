@@ -66,7 +66,7 @@ static const char *colors[][3]      = {
 
 ```
 
-Make sure to remove or comment out this line
+also remove or comment out this line.
 ```
 #include "/home/tahmid/.cache/wal/colors-wal-dwm.h"
 ```
