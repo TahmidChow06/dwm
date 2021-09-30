@@ -10,6 +10,12 @@ They are described below:
 * [focusonclick](https://dwm.suckless.org/patches/focusonclick/) - It will disable the default sloppy focus.
 * [barpadding](https://dwm.suckless.org/patches/barpadding/) - You can set padding in the bar.
 
+## ScreenShot
+By default value of gaps and barpadding are set to 0. Give the
+following value if you want your dwm look like below:
+
+~[DWM Image](screenshot/dwm.png)
+
 ## Installation
 ```
 git clone https://github.com/TahmidChow06/neovim ~/.config/dwm
