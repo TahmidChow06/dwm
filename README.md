@@ -14,7 +14,7 @@ They are described below:
 By default value of gaps and barpadding are set to 0. Give the
 following value if you want your dwm look like below:
 
-[DWM Image](screenshot/dwm.png)
+![DWM Image](screenshot/dwm.png)
 
 ## Installation
 ```
