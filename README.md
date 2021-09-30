@@ -22,13 +22,13 @@ It will clone the config in ~/.config/dwm. and install dwm.
 ## Keybinding
 Bindings that were changed are mentioned below:
 
-|------------------+-------------------------------|
+|------------------|-------------------------------|
 | Keybinding       | Description                   |
-|------------------+-------------------------------|
+|------------------|-------------------------------|
 | super+Enter      | To open St                    |
 | super+shift+h    | Take current window to master |
 | super+f          | full screen                   |
 | super+ctrl+enter | to toggle floating layout     |
-|------------------+-------------------------------|
+|------------------|-------------------------------|
 
 And few bindings are also added. Like volume up, down and mute.
