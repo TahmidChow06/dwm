@@ -11,7 +11,7 @@ static const int sidepad            = 10;       /* horizontal padding of bar */
 static const int focusonwheel       = 0;
 static const char *fonts[]          = { "iosevka:size=10", "JoyPixels:pixelsize=12:antialias=true:authint=true" };
 static const char dmenufont[]       = "iosevka:size=10";
-#include "~/.cache/wal/colors-wal-dwm.h"
+#include "/home/tahmid/.cache/wal/colors-wal-dwm.h"
 
 //static const char *colors[][3]      = {
 	//[>               fg         bg         border   <]
