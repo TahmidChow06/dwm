@@ -11,8 +11,14 @@ They are described below:
 * [barpadding](https://dwm.suckless.org/patches/barpadding/) - You can set padding in the bar.
 
 ## ScreenShot
-By default value of gaps and barpadding are set to 0. Give the
+By default value of gaps and barpadding are set to 0. Change the
 following value if you want your dwm look like below:
+
+```
+static const unsigned int gappx     = 5;        /* gaps between windows */
+static const int vertpad            = 10;       /* vertical padding of bar */
+static const int sidepad            = 10;       /* horizontal padding of bar */
+```
 
 ![DWM Image](screenshot/dwm.png)
 
