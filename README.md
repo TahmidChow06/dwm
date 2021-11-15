@@ -39,7 +39,7 @@ It will clone the config in ~/.config/dwm. and install dwm.
 Bindings that were changed are mentioned below:
 
 | Keybinding        | Description                   |
-|-------------------+-------------------------------|
+|-------------------|-------------------------------|
 | super+Enter       | To open St                    |
 | super+shift+h     | Take current window to master |
 | super+shift+enter | Brings scratchpad             |
