@@ -42,7 +42,7 @@ Bindings that were changed are mentioned below:
 |-------------------|-------------------------------|
 | super+Enter       | To open St                    |
 | super+shift+h     | Take current window to master |
-| super+shift+enter | Brings scratchpad             |
+| super+shift+enter | toggles scratchpad            |
 | super+f           | full screen                   |
 | super+ctrl+enter  | to toggle floating layout     |
 
