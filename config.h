@@ -2,7 +2,7 @@
 
 /* appearance */
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
-static const unsigned int gappx     = 0;        /* gaps between windows */
+static const unsigned int gappx     = 5;        /* gaps between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int swallowfloating    = 0;        /* 1 means swallow floating windows by default */
 static const int showbar            = 0;        /* 0 means no bar */ 
@@ -12,13 +12,24 @@ static const int sidepad            = 0;       /* horizontal padding of bar */
 static const int focusonwheel       = 0;
 static const char *fonts[]          = { "iosevka:size=10", "JoyPixels:pixelsize=12:antialias=true:authint=true" };
 static const char dmenufont[]       = "iosevka:size=10";
-#include "/home/tahmid/.cache/wal/colors-wal-dwm.h"
 
-//static const char *colors[][3]      = {
-	//[>               fg         bg         border   <]
-	//[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	//[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
-//};
+static const char norm_fg[] = "#caebf4";
+static const char norm_bg[] = "#162338";
+static const char norm_border[] = "#000000";
+
+static const char sel_fg[] = "#000000";
+static const char sel_bg[] = "#4FA9AC";
+static const char sel_border[] = "#8da4aa";
+
+static const char urg_fg[] = "#caebf4";
+static const char urg_bg[] = "#2198A4";
+static const char urg_border[] = "#2198A4";
+
+static const char *colors[][3]      = {
+    /*               fg           bg         border                         */
+    [SchemeNorm] = { norm_fg,     norm_bg,   norm_border }, // unfocused wins
+    [SchemeSel]  = { sel_fg,      sel_bg,    sel_border },  // the focused win
+};
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
