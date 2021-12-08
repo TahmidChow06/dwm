@@ -47,29 +47,3 @@ Bindings that were changed are mentioned below:
 | super+ctrl+enter  | to toggle floating layout     |
 
 And few bindings are also added. Like volume up, down and mute.
-
-## Pywal
-This fork of dwm by default uses pywal by default.  Make sure to change the `tahmid` with your username.
-If you don't have pywal or want to use the exact colorscheme I have then, add the following to your config:
-
-```
-static const char norm_fg[] = "#b7b6ba";
-static const char norm_bg[] = "#101010";
-static const char norm_border[] = "#807f82";
-
-static const char sel_fg[] = "#101010";
-static const char sel_bg[] = "#595C63";
-static const char sel_border[] = "#b7b6ba";
-
-static const char *colors[][3]      = {
-    /*               fg           bg         border                         */
-    [SchemeNorm] = { norm_fg,     norm_bg,   norm_border }, // unfocused wins
-    [SchemeSel]  = { sel_fg,      sel_bg,    sel_border },  // the focused win
-};
-
-```
-
-also remove or comment out this line.
-```
-#include "/home/tahmid/.cache/wal/colors-wal-dwm.h"
-```
